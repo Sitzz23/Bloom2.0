@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,15 +12,65 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image 2" translatesAutoresizingMaskIntoConstraints="NO" id="o2e-J7-Yv4">
+                                <rect key="frame" x="84" y="313.66666666666669" width="225" height="225.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="XYJ-DZ-ePq"/>
+                                    <constraint firstAttribute="height" constant="225" id="hbg-9N-aD4"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="faa-Fn-hNS">
+                                <rect key="frame" x="-46" y="0.0" width="320" height="235"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image 1" translatesAutoresizingMaskIntoConstraints="NO" id="5Hb-pl-Z0t">
+                                <rect key="frame" x="177" y="-50" width="216" height="285"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="285" id="hDl-Cn-8nC"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image 4" translatesAutoresizingMaskIntoConstraints="NO" id="iTo-BN-83N">
+                                <rect key="frame" x="111" y="614" width="315" height="296"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image 3" translatesAutoresizingMaskIntoConstraints="NO" id="9SZ-sL-uuc">
+                                <rect key="frame" x="-54" y="591" width="313" height="261"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.94901961089999998" green="0.91372549530000002" blue="0.86666667460000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="o2e-J7-Yv4" firstAttribute="top" secondItem="faa-Fn-hNS" secondAttribute="bottom" constant="78.666666666666742" id="9nC-Rk-Y6S"/>
+                            <constraint firstItem="9SZ-sL-uuc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-70" id="Hb6-KC-kHc"/>
+                            <constraint firstItem="iTo-BN-83N" firstAttribute="top" secondItem="o2e-J7-Yv4" secondAttribute="bottom" constant="75.333333333333258" id="Pf0-JG-Jn3"/>
+                            <constraint firstItem="5Hb-pl-Z0t" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="U2y-wM-ic6"/>
+                            <constraint firstItem="faa-Fn-hNS" firstAttribute="bottom" secondItem="5Hb-pl-Z0t" secondAttribute="bottom" id="Z3A-0n-yEf"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="iTo-BN-83N" secondAttribute="bottom" constant="-92" id="ZdS-iV-EZf"/>
+                            <constraint firstItem="o2e-J7-Yv4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="fE5-lT-kDk"/>
+                            <constraint firstItem="faa-Fn-hNS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-59" id="hVf-HH-Cb2"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="9SZ-sL-uuc" secondAttribute="bottom" constant="-34" id="nqX-lF-pE1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9SZ-sL-uuc" secondAttribute="trailing" constant="134" id="oAo-S5-siu"/>
+                            <constraint firstItem="faa-Fn-hNS" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-62" id="pV1-X1-6eS"/>
+                            <constraint firstItem="o2e-J7-Yv4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rfR-kv-vgM"/>
+                            <constraint firstItem="9SZ-sL-uuc" firstAttribute="top" secondItem="o2e-J7-Yv4" secondAttribute="bottom" constant="52.333333333333258" id="sGP-6g-dmw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iTo-BN-83N" secondAttribute="trailing" constant="-49" id="vbt-6m-wnd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="faa-Fn-hNS" secondAttribute="trailing" constant="119" id="wye-9Z-vAY"/>
+                            <constraint firstItem="iTo-BN-83N" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="111" id="yTo-Gd-Nm7"/>
+                            <constraint firstItem="5Hb-pl-Z0t" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="177" id="zTL-ku-Vmc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="514" height="386"/>
+        <image name="Image 1" width="372" height="484"/>
+        <image name="Image 2" width="484" height="431"/>
+        <image name="Image 3" width="296" height="376"/>
+        <image name="Image 4" width="532" height="324"/>
+    </resources>
 </document>
