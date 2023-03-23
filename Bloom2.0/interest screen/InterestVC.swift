@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ExploreVC: UICollectionView, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+class InterestVC: UICollectionView, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
     private var labels = ["Coding", "Cooking", "Music", "Science", "Painting", "Gardening", "Technology", "Maths", "Finance"]
 
