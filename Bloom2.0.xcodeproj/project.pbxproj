@@ -21,6 +21,7 @@
 		38FF926329CCD51700D995E5 /* NewEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF926229CCD51700D995E5 /* NewEventVC.swift */; };
 		38FF926529CCD52D00D995E5 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF926429CCD52D00D995E5 /* ProfileVC.swift */; };
 		38FF926729CCE48300D995E5 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF926629CCE48300D995E5 /* MainVC.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		38FF926229CCD51700D995E5 /* NewEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEventVC.swift; sourceTree = "<group>"; };
 		38FF926429CCD52D00D995E5 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		38FF926629CCE48300D995E5 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
