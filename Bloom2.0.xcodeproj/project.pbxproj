@@ -17,6 +17,7 @@
 		38FF925A29C8F3E900D995E5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF925929C8F3E900D995E5 /* HomeVC.swift */; };
 		38FF925C29C919C100D995E5 /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF925B29C919C100D995E5 /* ExploreVC.swift */; };
 		38FF925E29C91BDE00D995E5 /* ExploreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FF925D29C91BDE00D995E5 /* ExploreCollectionViewCell.swift */; };
+		C9AC44BF29CCD6350096F0ED /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AC44BE29CCD6350096F0ED /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		38FF925929C8F3E900D995E5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		38FF925B29C919C100D995E5 /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
 		38FF925D29C91BDE00D995E5 /* ExploreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCollectionViewCell.swift; sourceTree = "<group>"; };
+		C9AC44BE29CCD6350096F0ED /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				385F6CC029C39DFC0022419B /* Info.plist */,
 				38FF925929C8F3E900D995E5 /* HomeVC.swift */,
 				38FF925B29C919C100D995E5 /* ExploreVC.swift */,
+				C9AC44BE29CCD6350096F0ED /* LoginVC.swift */,
 			);
 			path = Bloom2.0;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			files = (
 				38FF925C29C919C100D995E5 /* ExploreVC.swift in Sources */,
 				38FF925E29C91BDE00D995E5 /* ExploreCollectionViewCell.swift in Sources */,
+				C9AC44BF29CCD6350096F0ED /* LoginVC.swift in Sources */,
 				385F6CB729C39DFB0022419B /* ViewController.swift in Sources */,
 				38FF925A29C8F3E900D995E5 /* HomeVC.swift in Sources */,
 				385F6CC929C472B20022419B /* Interests.swift in Sources */,
