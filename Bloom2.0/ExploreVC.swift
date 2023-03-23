@@ -9,7 +9,7 @@ import UIKit
 
 class ExploreVC: UICollectionView, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
-    private var labels = ["A", "B", "C", "D", "E", "F", "G", "H", "I"]
+    private var labels = ["Coding", "Cooking", "Music", "Science", "Painting", "Gardening", "Technology", "Maths", "Finance"]
 
        func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath as IndexPath) as! ExploreCollectionViewCell
@@ -34,7 +34,7 @@ class ExploreVC: UICollectionView, UICollectionViewDataSource, UICollectionViewD
        
        func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize
        {
-           return CGSize(width: 100, height: 100)
+           return CGSize(width: 80, height: 20)
        }
 
 }
