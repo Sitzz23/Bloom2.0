@@ -11,10 +11,17 @@ class ExploreCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet var mainLbl: UILabel!
     
+  
+    @IBOutlet var vview: ExploreCollectionViewCell!
     
     func setLabel(label:String) {
-            mainLbl.text = label
-        }
+        mainLbl.text = label
+    }
     
-    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        contentView.layer.cornerRadius = 10
+        
+    }
 }
